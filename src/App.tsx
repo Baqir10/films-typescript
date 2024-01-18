@@ -5,28 +5,28 @@ import Grid from "./scenes/grid";
 
 
 let vfx:Record<string,string>[] = [
-  {'url': 'https://www.youtube.com/watch?v=CUuzGBi2loI', 'dir' : '/src/assets/BlueBeetle.jpg', 'title' : 'THE BLUE BEETLE'},
-  {'url': 'https://www.youtube.com/watch?v=ceF8STF_dyw', 'dir' : '/src/assets/Batman.jpg', 'title' : 'THE BATMAN | TRAILER'},
-  {'url': 'https://www.youtube.com/watch?v=eNZvQ9WFECg', 'dir' : '/src/assets/Iceman.jpg', 'title' : 'ICEMAN | TRAILER'},
-  {'url': 'https://youtu.be/muv_Z_AB4l4', 'dir' : '/src/assets/HumanTorch.jpg', 'title' : 'THE HUMAN TORCH | INFINITY WAR'},
+  {'url': 'https://www.youtube.com/watch?v=CUuzGBi2loI', 'dir' : 'images/BlueBeetle.jpg', 'title' : 'THE BLUE BEETLE'},
+  {'url': 'https://www.youtube.com/watch?v=ceF8STF_dyw', 'dir' : 'images/Batman.jpg', 'title' : 'THE BATMAN | TRAILER'},
+  {'url': 'https://www.youtube.com/watch?v=eNZvQ9WFECg', 'dir' : 'images/Iceman.jpg', 'title' : 'ICEMAN | TRAILER'},
+  {'url': 'https://youtu.be/muv_Z_AB4l4', 'dir' : 'images/HumanTorch.jpg', 'title' : 'THE HUMAN TORCH | INFINITY WAR'},
 ];
 
 let anim:Record<string,string>[] = [
-  {'url': 'https://www.youtube.com/watch?v=zNjEgbe3sa8', 'dir' : '/src/assets/LionKing.jpg', 'title' : "THE LION KING - SIMBA'S ROAR"},
-  {'url': 'https://www.youtube.com/watch?v=67A19iWGN7E', 'dir' : '/src/assets/Spiderman.jpg', 'title' : 'SPIDERMAN | TRAILER'},
-  {'url': 'https://www.youtube.com/watch?v=sYodoTm4uVA', 'dir' : '/src/assets/LeoMessi.jpg', 'title' : 'FIFA 22 | TRAILER'},
-  {'url': 'https://youtu.be/1jXRQZJ74Cs', 'dir' : '/src/assets/Neymar.jpg', 'title' : 'NIKE FOOTBALL | NEYMAR'},
+  {'url': 'https://www.youtube.com/watch?v=zNjEgbe3sa8', 'dir' : 'images/LionKing.jpg', 'title' : "THE LION KING - SIMBA'S ROAR"},
+  {'url': 'https://www.youtube.com/watch?v=67A19iWGN7E', 'dir' : 'images/Spiderman.jpg', 'title' : 'SPIDERMAN | TRAILER'},
+  {'url': 'https://www.youtube.com/watch?v=sYodoTm4uVA', 'dir' : 'images/LeoMessi.jpg', 'title' : 'FIFA 22 | TRAILER'},
+  {'url': 'https://youtu.be/1jXRQZJ74Cs', 'dir' : 'images/Neymar.jpg', 'title' : 'NIKE FOOTBALL | NEYMAR'},
 ];
 
 let cine:Record<string,string>[] = [
-  {'url': 'https://youtu.be/3wQr-AFQ3ac', 'dir' : '/src/assets/Running.jpg', 'title' : "RUNNING FILM"},
-  {'url': 'https://youtu.be/gJVL0fQUIbo', 'dir' : '/src/assets/Turkey.jpg', 'title' : 'TURKEY TRAVEL VIDEO'},
+  {'url': 'https://youtu.be/3wQr-AFQ3ac', 'dir' : 'images/Running.jpg', 'title' : "RUNNING FILM"},
+  {'url': 'https://youtu.be/gJVL0fQUIbo', 'dir' : 'images/Turkey.jpg', 'title' : 'TURKEY TRAVEL VIDEO'},
 ];
 
 let reels:Record<string,string>[] = [
-  {'url': 'https://www.youtube.com/watch?v=0c7an164Qvw', 'dir' : '/src/assets/Reel2022.jpg', 'title' : 'VFX REEL 2022'},
-  {'url': 'https://www.youtube.com/watch?v=3uFNmd22cuw', 'dir' : '/src/assets/Reel2021.jpg', 'title' : 'VFX REEL 2021'},
-  {'url': 'https://www.youtube.com/watch?v=LJU5rF7h6Ng', 'dir' : '/src/assets/Reel2020.jpg', 'title' : 'VFX REEL 2020'},
+  {'url': 'https://www.youtube.com/watch?v=0c7an164Qvw', 'dir' : 'images/Reel2022.jpg', 'title' : 'VFX REEL 2022'},
+  {'url': 'https://www.youtube.com/watch?v=3uFNmd22cuw', 'dir' : 'images/Reel2021.jpg', 'title' : 'VFX REEL 2021'},
+  {'url': 'https://www.youtube.com/watch?v=LJU5rF7h6Ng', 'dir' : 'images/Reel2020.jpg', 'title' : 'VFX REEL 2020'},
 ];
 
 let vfxEd:Record<string,string>[][] = [];
